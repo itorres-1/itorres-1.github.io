@@ -1,6 +1,11 @@
-# Getting Started with Create React App
+# Personal website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the repository for my personal website on GitHub Pages. Feel free to use any of this code however you'd like :)
+
+## Setup
+
+First, create a GitHub repository with the following name: `<username>.github.io`. Then, once you have pushed the Create React App bootstrapped code to this repo, configure `gh-pages` and all the necessary `package.json` values, then run `npm run deploy`. Then in the GitHub repo, go to Settings -> Pages, ensure `Deploy from a branch` is the selected option under source, you should then see `gh-pages` as a selectable branch to deploy from. Everytime you run `npm run deploy`, you should be able to see all your recent changes within a few minutes on your user GitHub pages site.
+
 
 ## Available Scripts
 
@@ -28,6 +33,10 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run deploy`
+
+Builds the app for production and deploys it to GitHub Pages using the `gh-pages` branch in your repository. Make sure you've setup your `<username>.github.io` Page to deploy from this branch.
 
 ### `npm run eject`
 
